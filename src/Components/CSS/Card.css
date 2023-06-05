@@ -1,0 +1,28 @@
+.main-div{
+    overflow: hidden;
+    /* height: 1000px; */
+    max-width: 400px;
+    margin: 20px;
+    box-shadow: 3px 3px 18px #dfdfdf, -3px -2px 14px #e4e4e4;
+    border-radius: 20px;
+}
+.upper-img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* height: 300px; */
+    /* object-fit: cover; */
+}
+.lower-data h1{
+    font-weight: bold;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.lower-data{
+    padding: 25px;
+}
+.lower-data p{
+    text-align: justify;
+}
+

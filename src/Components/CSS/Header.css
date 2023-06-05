@@ -1,0 +1,97 @@
+.header{
+    height: 70px;
+    box-shadow: 3px 0px 3px #333;
+}
+.main-header{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.options span{
+    padding: 0px 10px;
+}
+.options span:hover{
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #ccc;
+    cursor: pointer;
+    color:#1e40af;
+}
+.search{
+    border: 1px solid #555555;
+    border-radius: 25px;
+    position: relative;
+    /* background-color: #333; */
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 4.5%;
+    transform: translateY(-4.5%);
+    z-index: 10;
+}
+.search{
+    padding-left: 34px;
+    margin-right: 40px;
+    box-shadow: 2px 2px 7px #e0e0e0, -2px -3px 5px #e0e0e0;
+}
+.bootoms{
+    margin-top: 10px;
+    /* overflow: hidden; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bootoms{display: none;}
+.search_it{
+    padding: 10px;
+    width: 400px;
+    padding-left: 34px;
+    margin-right: 40px;
+    box-shadow: 2px 2px 7px #e0e0e0, -2px -3px 5px #e0e0e0;
+    border: 1px solid #9b9b9b;
+    border-radius: 10px;
+    position: relative;
+}
+.search_it:focus{
+    outline: none;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    width: 400px;
+    padding-left: 34px;
+    margin-right: 40px;
+    box-shadow: 2px 2px 7px #e0e0e0, -2px -3px 5px #e0e0e0;
+    border: 1px solid #9b9b9b;
+    border-radius: 10px;
+}
+.option span:hover{
+    cursor: pointer;
+    color:#008c9e;
+    font-weight: bold;
+}
+.option span{
+    margin-right: 10px;
+}
+.search:focus{outline: none;}
+.bars{display: none;}
+@media only screen and (max-width:624px){
+    .bootoms{display: block;}
+    .search{display: none;}
+    .bars{display: inline;}
+    .fa-magnifying-glass{display: none;}
+}
+@media only screen and (max-width:975px){
+    .options{display: none;}
+}
